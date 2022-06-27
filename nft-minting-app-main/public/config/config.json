@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x8E592f8de432c7F1b36A1d54572dd01E33799aa7",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/address/0x8e592f8de432c7f1b36a1d54572dd01e33799aa7",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "The Stripes NFT",
+  "SYMBOL": "TSNFT",
+  "MAX_SUPPLY": 10,
+  "WEI_COST": 4000000000000000000,
+  "DISPLAY_COST": 4,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/prova-p77auwpnlw",
+  "SHOW_BACKGROUND": true
+}
