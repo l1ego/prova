@@ -258,6 +258,16 @@ function App() {
                 Roadmap
               </StyledButton>
               <StyledButton
+                onClick={(e) => {
+                  window.open("/config/us.html", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Chi siamo
+              </StyledButton>
+              <StyledButton
                 style={{
                   margin: "5px",
                 }}
