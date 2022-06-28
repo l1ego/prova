@@ -7,7 +7,6 @@
 		<meta name="theme-color" content="#000000" />
 		<link rel="icon" href="/favicon.ico" />
 		<link rel="stylesheet" href="styles.css">
-		<link rel="stylesheet" href="theme.css" />
 		<link rel="manifest" href="/manifest.json" />
 		<link rel="apple-touch-icon" href="/logo192.png" /> 
 		<title>CHI SIAMO</title>
@@ -22,7 +21,7 @@
 	</head>
 
 	<body>
-
+		<img src="/logo192.png" alt="logo" width="0.5s" height="o.5s">
 		<h2> TEAM </h2>
 		<p> LeoG, Fabio, Paolo, LeoC </p>
 		<h2> CHI SIAMO </h4>
@@ -32,3 +31,11 @@
 	</body>
 </html>
 
+export const StyledLogo = styled.img`
+  width: 200px;
+  @media (min-width: 767px) {
+    width: 300px;
+  }
+  transition: width 0.5s;
+  transition: height 0.5s;
+`;
